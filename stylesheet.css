@@ -5,7 +5,7 @@ body {
     font-family: TREBUCHET MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     color:#000;
-    background-color: #fff;
+    background-color: #000;
 }
 
 p {
@@ -19,14 +19,14 @@ p {
 
 
 #header {
-    height: 75px;
-    background: darkblue;
-    border-radius: 10px;
-    margin: 5px;
+    height: 300px;
+    background: url(img/header_planet.png);
+    background-size: contain;
 }
 
 .header {
     color: white;
+    font-size: 30px;
     background: black;
     width: 100%;
     padding: 10px;
@@ -34,40 +34,54 @@ p {
 }
 
 #contentwrap {
-    width: 600px;
-    float: left;
+    display: table;
+    border-spacing: 0;
+    width: 900px;
     margin: 0 auto;
 }
 
 #content {
-    background: gray;
+    display: table-cell;
+    background: #fff;
+    opacity: 0.6;
     border-radius: 10px;
     margin: 5px;
 }
 
 .column {
+    display: table-cell;
     width: 150px;
-    float: left;
     margin: 0 auto;
+    background: #fff;
+    opacity: 0.3;
+    padding-top: 60px;
 }
 
+.rounded-top-left {
+    border-top-left-radius: 40px;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 40px;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 40px;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 40px;
+}
+
+
 #menu {
-    background: #33CCFF;
-    border-radius: 10px;
-    border: 1px solid #1fb8eb;
-    margin: 5px;
 }
 
 #aside{
-    background: darkgray;
-    border-radius: 10px;
-    border: 1px solid gray;
-    margin: 5px;
 }
 
 #footerwrap {
-    width: 900px;
-    float: left;
+    width: 600px;
     margin: 0 auto;
     clear: both;
 }
@@ -75,8 +89,5 @@ p {
 #footer {
     height: 40px;
     background: dimgray;
-    border-radius: 10px;
-    border: 1px solid gray;
-    margin: 5px;
 }
 
