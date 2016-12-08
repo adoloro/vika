@@ -1,0 +1,74 @@
+@import url('eric-meyer-reset.css');
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#000;
+    background-color: black;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+#header {
+    height: 75px;
+    background: darkblue;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#contentwrap {
+    width: 600px;
+    float: left;
+    margin: 0 auto;
+}
+
+#content {
+    background: gray;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.column {
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+}
+
+#menu {
+    background: #33CCFF;
+    border-radius: 10px;
+    border: 1px solid #1fb8eb;
+    margin: 5px;
+}
+
+#aside{
+    background: darkgray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+#footerwrap {
+    width: 900px;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}
+
+#footer {
+    height: 40px;
+    background: dimgray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
