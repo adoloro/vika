@@ -21,7 +21,7 @@ p {
 #header {
     height: 300px;
     background: url(img/header_planet.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .header {
@@ -44,8 +44,7 @@ p {
     display: table-cell;
     background: #fff;
     opacity: 0.6;
-    border-radius: 10px;
-    margin: 5px;
+    vertical-align: top;
 }
 
 .column {
