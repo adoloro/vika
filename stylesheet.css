@@ -58,6 +58,7 @@ p {
     display: table-cell;
     background: #666;
     vertical-align: top;
+    font-size: 18pt;
 }
 
 .column {
@@ -68,31 +69,30 @@ p {
 }
 
 .rounded-top-left {
-    padding-top: 60px;
-    border-top-left-radius: 40px;
+    padding-top: 50px;
+    border-top-left-radius: 60px;
 }
 
 .rounded-top-right {
-    padding-top: 60px;
-    border-top-right-radius: 40px;
+    padding-top: 50px;
+    border-top-right-radius: 60px;
 }
 
 .rounded-bottom-left {
-    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 60px;
 }
 
 .rounded-bottom-right {
-    border-bottom-right-radius: 40px;
-}
-
-.aside {
-    width: 150px;
+    border-bottom-right-radius: 60px;
 }
 
 .menu {
-    width: 200px;
+    width: 300px;
 }
 
+.aside {
+    width: 200px;
+}
 
 #menu {
 }
@@ -109,7 +109,7 @@ p {
 
 #footer {
     display: table-cell;
-    height: 120px;
+    height: 85px;
     background: #666;
     vertical-align: middle;
     text-align: center;
