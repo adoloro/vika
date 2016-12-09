@@ -18,7 +18,7 @@ p {
 #header {
     box-sizing: border-box;
     height: 400px;
-    background: url(img/header_planet.png);
+    /*background: url(img/header_planet.png);*/
     background-size: cover;
     color: #fff;
     padding-top: 30px;
@@ -42,6 +42,15 @@ p {
     margin-top: 1px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+#aside .header {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 #contentwrap {
@@ -117,12 +126,23 @@ p {
 
 .aside {
     width: 200px;
+    text-align: right;
 }
 
 #menu {
 }
 
 #aside {
+}
+
+#aside h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 #footerwrap {
@@ -140,4 +160,3 @@ p {
     text-align: center;
     font-size: 25px;
 }
-
