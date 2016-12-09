@@ -4,7 +4,6 @@
 body {
     font-family: TREBUCHET MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color:#000;
     background-color: #000;
 }
 
@@ -19,16 +18,31 @@ p {
 
 
 #header {
+    box-sizing: border-box;
     height: 400px;
     background: url(img/header_planet.png);
     background-size: cover;
+    color: #fff;
+    padding-top: 30px;
+    text-align: right;
 }
+
+#header h1 {
+    font-size: 72pt;
+}
+
+#header h2 {
+    font-size: 50pt;
+    font-style: italic;
+}
+
 
 .header {
     color: white;
     font-size: 30px;
     background: black;
     width: 100%;
+    margin-top: 1px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -99,5 +113,6 @@ p {
     background: #666;
     vertical-align: middle;
     text-align: center;
+    font-size: 25px;
 }
 
