@@ -51,14 +51,15 @@ p {
     margin: 0 auto;
     background: #fff;
     opacity: 0.3;
-    padding-top: 60px;
 }
 
 .rounded-top-left {
+    padding-top: 60px;
     border-top-left-radius: 40px;
 }
 
 .rounded-top-right {
+    padding-top: 60px;
     border-top-right-radius: 40px;
 }
 
@@ -86,13 +87,17 @@ p {
 }
 
 #footerwrap {
-    width: 600px;
-    margin: 0 auto;
-    clear: both;
+    display: table;
+    border-spacing: 0;
+    width: 100%;
+    margin-top: 10px;
 }
 
 #footer {
-    height: 40px;
-    background: dimgray;
+    display: table-cell;
+    height: 120px;
+    background: #666;
+    vertical-align: middle;
+    text-align: center;
 }
 
