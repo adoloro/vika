@@ -133,6 +133,7 @@ p {
 }
 
 #aside {
+    overflow: hidden;
 }
 
 #aside h2 {
@@ -143,6 +144,30 @@ p {
     color: #000;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
+}
+
+#aside a {
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.shelf {
+    background: #606060;
+    float: right;
+    width:80%;
+    border-top-left-radius: 25px;
+}
+
+a.link, a.link:visited {
+    background: #000;
+    color: #fff;
+}
+
+a.link:hover {
+    background: #fff;
+    color: #000;
 }
 
 #footerwrap {
