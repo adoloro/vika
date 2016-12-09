@@ -42,8 +42,7 @@ p {
 
 #content {
     display: table-cell;
-    background: #fff;
-    opacity: 0.6;
+    background: #666;
     vertical-align: top;
 }
 
