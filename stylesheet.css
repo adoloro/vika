@@ -14,7 +14,7 @@ p {
 
 #wrapper {
     margin: 0 auto;
-    width: 900px;
+    width: 1280px;
 }
 
 
@@ -36,7 +36,7 @@ p {
 #contentwrap {
     display: table;
     border-spacing: 0;
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -48,7 +48,6 @@ p {
 
 .column {
     display: table-cell;
-    width: 150px;
     margin: 0 auto;
     background: #fff;
     opacity: 0.3;
@@ -69,6 +68,14 @@ p {
 
 .rounded-bottom-right {
     border-bottom-right-radius: 40px;
+}
+
+.aside {
+    width: 150px;
+}
+
+.menu {
+    width: 200px;
 }
 
 
