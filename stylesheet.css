@@ -4,11 +4,6 @@ body {
     font-family: TREBUCHET MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     background-color: #000;
-    height: 100%;
-}
-
-html {
-    height: 100%;
 }
 
 p {
@@ -49,14 +44,6 @@ p {
     font-size: 30px;
 }
 
-#aside .header {
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    background: #fff;
-    color: #000;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-}
 
 #contentwrap {
     display: table;
@@ -130,19 +117,16 @@ p {
     border-top-right-radius: 25px;
 }
 
+
+/*    Aside   */
+
 .aside {
     width: 200px;
-}
-
-#menu {
-}
-
-#aside {
     padding-left: 20px;
     height: 100%;
 }
 
-#aside h2 {
+.right-header {
     font-size: 30px;
     margin-bottom: 10px;
     text-align: right;
@@ -158,8 +142,8 @@ p {
     background: #222;
     padding: 20px 10px 10px;
     color: #fff;
-    height: 100%;
     border-top-left-radius: 25px;
+    overflow: hidden;
 }
 
 .book {
@@ -183,10 +167,8 @@ p {
 .order a, .order a:visited {
     font-size: 12px;
     border-radius: 12px;
-    padding: 5px;
-    text-decoration: none;
     padding: 5px 40px;
-
+    text-decoration: none;
     background: #000;
     color: #fff;
 }
@@ -210,4 +192,51 @@ p {
     vertical-align: middle;
     text-align: center;
     font-size: 25px;
+}
+
+
+
+/* Slider
+    http://www.deluxeblogtips.com/image-slider-pure-css3/
+*/
+#images {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 20px auto;
+}
+#images img {
+    width: 400px;
+    height: 250px;
+
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 0;
+
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+}
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#images img:first-child {
+    left: 0;
+}
+#slider a {
+    text-decoration: none;
+    background: #E3F1FA;
+    border: 1px solid #C6E4F2;
+    padding: 4px 6px;
+    color: #222;
+}
+#slider a:hover {
+    background: #C6E4F2;
 }
