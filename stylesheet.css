@@ -1,13 +1,14 @@
 @import url('eric-meyer-reset.css'); /*  Standardbrowsereinstellungen zurücksetzen   */
 
 body {
-    font-family: "TREBUCHET MS", Verdana, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
     background-color: #000;
 }
 
 p {
     padding: 10px;
+    line-height: 1.2em;
 }
 
 #wrapper {
@@ -54,15 +55,20 @@ p {
 
 #content {
     display: table-cell;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     vertical-align: top;
     font-size: 18pt;
+}
+
+#content h2 {
+	padding: 10px;
+	font-weight: 600;
 }
 
 .column {
     display: table-cell;
     margin: 0 auto;
-    background: #4e4e4e;
+    background: rgba(255, 255, 255, 0.3);
     vertical-align: top;
 }
 
@@ -140,7 +146,7 @@ p {
 }
 
 .shelf {
-    background: #222;
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px 10px 10px;
     color: #fff;
     border-top-left-radius: 25px;
@@ -189,7 +195,7 @@ p {
 #footer {
     display: table-cell;
     height: 85px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     vertical-align: middle;
     text-align: center;
     font-size: 25px;
@@ -200,8 +206,6 @@ p {
 /* CSS3 Slider
     http://www.deluxeblogtips.com/image-slider-pure-css3/
 */ 
-
-/* твои комментарии со ссылками на сайты нужно оставить? для чего они? или ты просто указал, откуда ты брал информацию? */
 
 .slider {
     margin: 20px;
@@ -221,7 +225,6 @@ p {
 #images img {
     width: 860px;
     height: auto; /* http://stackoverflow.com/questions/787839/resize-image-proportionally-with-css */
-
     position: absolute;
     top: 0;
     left: -860px;
@@ -253,7 +256,7 @@ p {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border: 5px solid #cccccc;
+    border: 5px solid #ccc;
     background: #fff;
 }
 
@@ -264,8 +267,7 @@ p {
 #contact-area {
     padding: 10px;
     border: 2px solid #D0D0D0;
-    background: #cccccc;
-
+    background: #ccc;
     overflow: hidden;
     font-size: 14px;
 }
@@ -282,15 +284,15 @@ p {
     display: inline-block;
     margin-right: 5px;
     width: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #contact-area input[type=checkbox] {
     display: inline-block; /*  ein Boxen-Gitter erstellen  */
     width: 15px;
     margin-right: 5px;
-    margin-bottom: 10px;
-    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 
@@ -299,7 +301,7 @@ p {
 }
 
 #contact-area textarea:focus, #contact-area input:focus {
-    border: 2px solid darkblue;
+    border: 2px solid #024cd4;
 }
 
 #contact-area input.submit-button {
