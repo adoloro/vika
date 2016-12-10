@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Kontakt</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <h1 class="title">Unser Sonnensystem</h1>
+    <h2 class="subtitle">die Geschichte</h2>
+  </div>
+
+  <div id="contentwrap">
+    <div class="column rounded-top-left menu">
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="latest.html">Aktuelles</a></li>
+        <li><a href="gallery.html">Bildergalerie</a></li>
+        <li><a href="telescope.html">Teleskop</a></li>
+        <li><a href="imprint.html">Impressum</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <div id="content" class="rounded-top-right">
+      <h1 class="header">Kontakt</h1>
+
+<div class="contact">
+  <div id="contactwrapper">
+    <div id="contact-area">
+      <form method="post" action="contactengine.php">
+
+        <div class="contact-detail">
+          <label for="salutation">Anrede:</label>
+
+          <label><input type="radio" name="salutation" id="male" value="male" checked>Herr</label>
+          <label><input type="radio" name="salutation" id="female" value="female">Frau</label>
+        </div>
+
+
+        <div class="contact-detail">
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" id="Name"/>
+        </div>
+
+
+        <div class="contact-detail">
+          <label for="Email">Email:</label>
+          <input type="text" name="Email" id="Email"/>
+        </div>
+
+        <div class="contact-detail">
+          <label for="Newsletter">Newsletter:</label>
+          <input type="checkbox" name="newsletter" id="Newsletter" value="Newsletter"/>
+        </div>
+
+
+        <div class="contact-detail">
+          <label for="subject">Betreff:</label>
+          <input type="text" name="subject" id="subject"/>
+
+        </div>
+
+
+        <div class="contact-detail">
+          <label for="message">Nachricht:</label><br/>
+          <textarea name="message" rows="40" cols="20" id="message"></textarea>
+        </div>
+
+        <div class="contact-detail">
+          <input type="submit" name="submit" value="Abschicken" class="submit-button"/>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+    </div>
+
+  </div>
+
+  <div id="footerwrap">
+    <div class="column rounded-bottom-left menu"></div>
+    <div id="footer" class="rounded-bottom-right">
+      <p>Copyright 2016, Unser Sonnensystem Company</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
