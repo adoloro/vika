@@ -50,7 +50,6 @@ p {
     border-spacing: 0;
     width: 100%;
     margin: 0 auto;
-    color: #000;
 }
 
 #content {
@@ -107,6 +106,7 @@ p {
     padding: 10px;
     display: block;
     text-decoration: none;
+    color: #000;
 }
 
 .menu a:hover {
