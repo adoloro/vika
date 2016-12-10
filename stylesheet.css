@@ -4,6 +4,11 @@ body {
     font-family: TREBUCHET MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     background-color: #000;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 p {
@@ -35,13 +40,13 @@ p {
 }
 
 .header {
-    color: white;
-    font-size: 30px;
-    background: black;
+    box-sizing: border-box;
     width: 100%;
     margin-top: 1px;
     padding: 10px;
-    box-sizing: border-box;
+    color: #fff;
+    background: #000;
+    font-size: 30px;
 }
 
 #aside .header {
@@ -127,19 +132,20 @@ p {
 
 .aside {
     width: 200px;
-    text-align: right;
 }
 
 #menu {
 }
 
 #aside {
-    overflow: hidden;
+    padding-left: 20px;
+    height: 100%;
 }
 
 #aside h2 {
     font-size: 30px;
     margin-bottom: 10px;
+    text-align: right;
     box-sizing: border-box;
     padding-right: 10px;
     background: #fff;
@@ -148,27 +154,44 @@ p {
     border-top-left-radius: 25px;
 }
 
-#aside a {
+.shelf {
+    background: #222;
+    padding: 20px 10px 10px;
+    color: #fff;
+    height: 100%;
+    border-top-left-radius: 25px;
+}
+
+.book {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.book-details {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.book-cover {
+    margin-bottom: 10px;
+}
+
+.order {
+    margin-bottom: 20px;
+}
+
+.order a, .order a:visited {
     font-size: 12px;
     border-radius: 12px;
     padding: 5px;
     text-decoration: none;
-}
+    padding: 5px 40px;
 
-.shelf {
-    background: #111;
-    float: right;
-    width:80%;
-    color: #fff;
-    border-top-left-radius: 25px;
-}
-
-a.link, a.link:visited {
     background: #000;
     color: #fff;
 }
 
-a.link:hover {
+.order a:hover {
     background: #fff;
     color: #000;
 }
