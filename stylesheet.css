@@ -189,7 +189,7 @@ p {
 #footer {
     display: table-cell;
     height: 85px;
-    background: #666;
+    background-color: rgba(255, 255, 255, 0.6);
     vertical-align: middle;
     text-align: center;
     font-size: 25px;
